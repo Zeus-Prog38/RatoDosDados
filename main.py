@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # - Imports -
 # ☇ It was used to get the screen size and clean the console
 import os
