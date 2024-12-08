@@ -22,7 +22,8 @@ options = [
               "localizar CEP",
               "Consulta WhoIS",
               "Verificar Telefone"
-]
+           ]
+          _options = [0, 1, 2, 3, 4, 5, 6, 99]
 
                      R="\033[1;31m";
 G="\033[1;32m";
@@ -226,18 +227,24 @@ def _menu(txt:list = "",rst=False):
                                                                                             size = size - 4
 # ☇ Clear console
                                                                                                     cls()
-                                                                                                    ░░░░░████▀▀▀███▄░░░░░░
-░░░▄▄█PAINEL DO RATO▀█▌░░░░░
-░░▐██▒▄■▀▒▒▒▀■▄██░░░░░
-░░▐██▒▒▄▄▌▒▐▄▄▒▐█▌░░░░
-░░░██▒▒▒▒▒▒▒▒▒▒▒█▌░░░░
-░░░██▒▒▒▒▒▀▀▒▒▒▒█▌░░░░
-░░░░█▒▒▒▒▒▒▒▒▒▒▒▓░░░░░
-░░░░▓▒▒▒▒▄██▄▒▒▒▓░░░░░
-░░░░▓▒▒▒▒████▒▒▒▓░░░░░
-░░░░░▓▒▒▒▒▒▒▒▒▒▓░░░░░░
-░░░░░░▓▐█▌▒▒▐█▌░░░░░░░
-░░░░░░░░▀████▀░░░░░░░░
+                                                                                                    print("███████████████████████████")
+print("███████▀▀▀░░░░░░░▀▀▀███████")
+print("████▀░░░░░░░░░░░░░░░░░▀████")
+print("███│░░░░░CYBER MOUSE░░░░░░███")
+print("██▌│░░░░░░░░░░░░░░░░░░░│▐██")
+print("██░└┐░░░░░░░░░░░░░░░░░┌┘░██")
+print("██░░└┐░░░░░░░░░░░░░░░┌┘░░██")
+print("██░░┌┘▄▄▄▄▄░░░░░▄▄▄▄▄└┐░░██")
+print("██▌░│██████▌░░░▐██████│░▐██")
+print("███░│▐███▀▀░░▄░░▀▀███▌│░███")
+print("██▀─┘░░░░░░░▐█▌░░░░░░░└─▀██")
+print("██▄░░░▄▄▄▓░░▀█▀░░▓▄▄▄░░░▄██")
+print("████▄─┘██▌░░░░░░░▐██└─▄████")
+print("█████░░▐█─┬┬┬┬┬┬┬─█▌░░█████")
+print("████▌░░░▀┬┼┼┼┼┼┼┼┬▀░░░▐████")
+print("█████▄░░░└┴┴┴┴┴┴┴┘░░░▄█████")
+print("███████▄░░░░░░░░░░░▄███████")
+print("██████████▄▄▄▄▄▄▄██████████")
                                                                                                             cls()
                                                                                 try:
                                                                                                                 ipt = int(ipt)
@@ -278,7 +285,9 @@ apisusadas={
     ,
 "WhoIS": "apilayer.com"
     ,
-"Verificação de telefone": "phonevalidation.abstractapi.com"
+"Verificação de telefone": "apilayer.com"
+    ,
+"Verificação de telefone 2": "phonevalidation.abstractapi.com"
 }
 metodos.ndict(apisusadas)
 input("\n%s%sAperte a tecla %s%sEnter%s%s para voltar.%s"%(start,B,r,G,r,B,r))
