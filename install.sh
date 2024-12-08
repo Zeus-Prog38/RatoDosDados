@@ -43,7 +43,7 @@ clear
 if [[ -f ghostpanel/main.py ]]; then
   echo -e "$reuse O ghostpanel já estava instalado antes, você já pode apagar o arquivo $0\e[0m"
 else
-  curl -o main.py https://raw.githubusercontent.com/kvgnx54/ghostpanel/main/main.py
+  curl -o main.py https://github.com/Zeus-Prog38/RatoDosDados/tree/main
 fi
 sleep 2
 while true; do
