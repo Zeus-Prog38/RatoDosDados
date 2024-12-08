@@ -22,8 +22,7 @@ options = [
               "localizar CEP",
               "Consulta WhoIS",
               "Verificar Telefone"
-           ]
-          _options = [0, 1, 2, 3, 4, 5, 6, 99]
+]
 
                      R="\033[1;31m";
 G="\033[1;32m";
