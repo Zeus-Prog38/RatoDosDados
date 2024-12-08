@@ -32,23 +32,23 @@ pip install requests
 clear
 
 # Pasta do GhostPanel
-if [[ -d ghostpanel/ ]]; then
+if [[ -d ,<RatoDosDados/ ]]; then
   echo -e "$reuse Criação da pasta principal ignorada pois já existe\e[0m"
 else
-  mkdir ghostpanel
+  mkdir RatoDosDados
 fi
-cd ghostpanel
+cd RatoDosDados
 sleep 2
 clear
-if [[ -f ghostpanel/main.py ]]; then
+if [[ -f RatoDosDados/main.py ]]; then
   echo -e "$reuse O ghostpanel já estava instalado antes, você já pode apagar o arquivo $0\e[0m"
 else
-  curl -o main.py https://github.com/Zeus-Prog38/RatoDosDados/tree/main
+  curl -o main.py https://github.com/Zeus-Prog38/RatoDosDados/tree/main/main.py
 fi
 sleep 2
 while true; do
     clear
-    echo -e "$reuse Deseja iniciar o GhostPanel?\e[0m\e[1m [\e[94ms/\e[91mn\e[0m\e[1m]\e[0m"
+    echo -e "$reuse Deseja iniciar o CYBER MOUSE??\e[0m\e[1m [\e[94ms/\e[91mn\e[0m\e[1m]\e[0m"
     read -n 1 opt
     clear
     if [ $opt == "s" ];then
